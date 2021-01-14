@@ -360,6 +360,7 @@
 // and need no changing. When _REPEATER function is selected, we do not
 // use the backend function to send message to server over MQTT.
 #if _REPEATER==0
-#	define _TTNSERVER "router.eu.thethings.network"
+//#	define _TTNSERVER "router.eu.thethings.network"
+#	define _TTNSERVER "lora.iots.no"
 #	define _TTNPORT 1700							// Standard port for TTN
 #endif

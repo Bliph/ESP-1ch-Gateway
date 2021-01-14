@@ -110,8 +110,8 @@ struct wpas {
 // below. This is needed to get the gateway working
 //
 wpas wpa[] = {
-	{ "yourSSID", "yourPassword" },
-	{ "Your2SSID", "your2Password" }
+	{ "Internkontrollsystem", "calvinandhobbes" },
+	{ "Honningkrukka", "calvinandhobbes" }
 };
 
 
@@ -134,11 +134,11 @@ wpas wpa[] = {
 
 // Gateway Ident definitions. Where is the gateway located?
 #define _DESCRIPTION "ESP Gateway"			// Name of the gateway
-#define _EMAIL "mw12554@hotmail.com"		// Owner
-#define _PLATFORM "ESP8266"
-#define _LAT 52.200000
-#define _LON 5.90000
-#define _ALT 1								// Altitude
+#define _EMAIL "johan.forsvoll@gmail.com"		// Owner
+#define _PLATFORM "ESP32_heltec"
+#define _LAT 58.088302
+#define _LON 7.82521
+#define _ALT 39								// Altitude
 
 
 // For asserting and testing the following defines are used.
